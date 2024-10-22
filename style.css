@@ -1,0 +1,31 @@
+/* Set background color for the body */
+body {
+    background-color: #0000001a;
+}
+
+/* Style for the login image to cover the card area */
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Style for the card to have rounded corners */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Rounded corners and inset shadow for input fields */
+input[type="text"],
+input[type="password"] {
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Rounded corners, inset shadow, and accent color for checkbox */
+input[type="checkbox"] {
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    accent-color: #007bff;
+}
